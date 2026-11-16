@@ -1,5 +1,9 @@
 # Tiny Inference Engine
 
+<p align="center">
+  <img src="assets/inference-engine-man-emoji.jpg" alt="Inference Engine Man" width="160" />
+</p>
+
 A small **LLM inference / serving engine** in Python + PyTorch, built around Hugging Face **Qwen2** weights (default: `Qwen/Qwen2.5-1.5B-Instruct`).
 
 The transformer is **not** reimplemented. Embeddings, norms, Q/K/V/O, MLP, RoPE, and the LM head stay Hugging Face modules. This project owns what a real inference engine owns:
